@@ -9,6 +9,8 @@ packages = [{include = "mood_tracker"}]
 [tool.poetry.dependencies]
 python = "^3.10"
 fastapi = {extras = ["all"], version = "^0.85.0"}
+passlib = {extras = ["bcrypt"], version = "^1.7.4"}
+python-jose = "^3.3.0"
 
 
 [tool.poetry.group.dev.dependencies]
