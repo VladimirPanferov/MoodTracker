@@ -1,4 +1,4 @@
-"""All API routes"""
+"""All API models"""
 
 from fastapi import APIRouter
 

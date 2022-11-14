@@ -2,8 +2,7 @@
 
 from fastapi import FastAPI
 
-
-from mood_tracker import api
+from mood_tracker.api import router
 
 
 
@@ -11,4 +10,4 @@ app = FastAPI(
     title="Mood tracker",
     description="Трекер настроения",
 )
-app.include_router(api.router)
+app.include_router(router)
